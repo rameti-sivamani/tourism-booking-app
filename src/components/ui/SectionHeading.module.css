@@ -1,0 +1,27 @@
+.heading {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--space-4);
+  margin-bottom: var(--space-6);
+}
+
+.eyebrow {
+  margin-bottom: var(--space-2);
+  color: var(--color-accent);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.title {
+  margin-bottom: var(--space-2);
+}
+
+.description {
+  max-width: 60ch;
+  margin: 0;
+  color: var(--color-text-muted);
+}
