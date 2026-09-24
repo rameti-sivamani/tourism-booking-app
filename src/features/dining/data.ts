@@ -1,0 +1,58 @@
+import type { Dish } from '../../types'
+
+export const dishes: Dish[] = [
+  {
+    id: 'chicken-biryani',
+    name: 'Chicken Biryani',
+    cuisine: 'Hyderabadi',
+    vegetarian: false,
+    rating: 4.9,
+    price: 320,
+    description: 'Dum-cooked basmati rice layered with spiced chicken and saffron.',
+  },
+  {
+    id: 'veg-starters',
+    name: 'Veg Starter Platter',
+    cuisine: 'North Indian',
+    vegetarian: true,
+    rating: 4.4,
+    price: 280,
+    description: 'Paneer tikka, hara bhara kebab and crispy corn with mint chutney.',
+  },
+  {
+    id: 'masala-dosa',
+    name: 'Masala Dosa',
+    cuisine: 'South Indian',
+    vegetarian: true,
+    rating: 4.7,
+    price: 140,
+    description: 'Crisp rice crêpe filled with spiced potato, served with sambar.',
+  },
+  {
+    id: 'fish-curry',
+    name: 'Kerala Fish Curry',
+    cuisine: 'Kerala',
+    vegetarian: false,
+    rating: 4.6,
+    price: 360,
+    description: 'Fresh catch simmered in coconut milk, kokum and curry leaves.',
+  },
+  {
+    id: 'paneer-butter-masala',
+    name: 'Paneer Butter Masala',
+    cuisine: 'Punjabi',
+    vegetarian: true,
+    rating: 4.5,
+    price: 260,
+    description: 'Soft paneer cubes in a rich tomato and cashew gravy.',
+  },
+  {
+    id: 'mutton-rogan-josh',
+    name: 'Mutton Rogan Josh',
+    cuisine: 'Kashmiri',
+    vegetarian: false,
+    rating: 4.8,
+    price: 420,
+    description: 'Slow-cooked mutton with Kashmiri chillies and fennel.',
+  },
+]

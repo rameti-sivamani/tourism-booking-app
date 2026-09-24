@@ -1,0 +1,7 @@
+.main {
+  min-height: calc(100vh - var(--header-height));
+}
+
+.loading {
+  height: 60vh;
+}

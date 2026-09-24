@@ -1,0 +1,11 @@
+.rating {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.star {
+  color: var(--color-star);
+}

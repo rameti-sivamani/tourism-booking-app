@@ -1,0 +1,58 @@
+import type { Stay } from '../../types'
+
+export const stays: Stay[] = [
+  {
+    id: 'kohinoor',
+    name: 'Hotel Kohinoor',
+    city: 'Agra',
+    type: 'Hotel',
+    rating: 4.4,
+    pricePerNight: 4200,
+    amenities: ['Free Wi-Fi', 'Breakfast', 'Taj view rooftop'],
+  },
+  {
+    id: 'sea-breeze',
+    name: 'Sea Breeze Resort',
+    city: 'Puducherry',
+    type: 'Resort',
+    rating: 4.6,
+    pricePerNight: 7800,
+    amenities: ['Beachfront', 'Pool', 'Spa'],
+  },
+  {
+    id: 'hill-nest',
+    name: 'Hill Nest Homestay',
+    city: 'Munnar',
+    type: 'Homestay',
+    rating: 4.8,
+    pricePerNight: 2900,
+    amenities: ['Tea estate walks', 'Home-cooked meals', 'Bonfire'],
+  },
+  {
+    id: 'royal-heritage',
+    name: 'Royal Heritage Haveli',
+    city: 'Jaipur',
+    type: 'Hotel',
+    rating: 4.7,
+    pricePerNight: 6500,
+    amenities: ['Heritage rooms', 'Courtyard dining', 'Airport pickup'],
+  },
+  {
+    id: 'backwater-bliss',
+    name: 'Backwater Bliss',
+    city: 'Alleppey',
+    type: 'Resort',
+    rating: 4.5,
+    pricePerNight: 8900,
+    amenities: ['Houseboat cruise', 'Ayurvedic spa', 'Pool'],
+  },
+  {
+    id: 'city-lights',
+    name: 'City Lights Suites',
+    city: 'Bengaluru',
+    type: 'Hotel',
+    rating: 4.2,
+    pricePerNight: 3600,
+    amenities: ['Free Wi-Fi', 'Gym', 'Workspace'],
+  },
+]
