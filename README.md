@@ -4,7 +4,7 @@ A modern travel booking web app where users can explore world-famous destination
 local food, save favourites to a wishlist and book a trip. It is built with **React 19**,
 **TypeScript** and **Vite**, and deployed automatically to **GitHub Pages**.
 
-**Live demo:** https://rameti-sivamani.github.io/TOURISM/
+**Live demo:** https://rameti-sivamani.github.io/tourism-booking-app/
 
 ![Home page](docs/screenshots/home.png)
 
